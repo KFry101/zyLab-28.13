@@ -1,7 +1,7 @@
 #include <iostream>
+#include "ItemToPurchase.h"
 using namespace std;
 
-#include "ItemToPurchase.h"
 
 int main() {
    

@@ -5,7 +5,7 @@
 using namespace std;
 
 /* Type your code here */
-ItemToPurchase() {
+class ItemToPurchase() {
   private:
 
     string itemName; //Initialized in default constructor to "none"

@@ -1,6 +1,17 @@
 #include <iostream>
+#include "ItemToPurchase.h"
 using namespace std;
 
-#include "ItemToPurchase.h"
+ItemToPurchase::ItemToPurchase(){
+  this->itemName="none";
+  this->itemPrice=0;
+  this->itemQuantity=0;
+} 
 
-/* Type your code here */
+ItemToPurchase::ItemToPurchase(string itemName, int itemPrice, int itemQuantity){
+  this->itemName=itemName;
+  this->itemPrice=itemPrice;
+  this->itemQuantity=itemQuantity;
+}
+
+
